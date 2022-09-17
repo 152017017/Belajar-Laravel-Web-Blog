@@ -13,7 +13,7 @@ class AdminCategoryController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
-    {
+    {        
         return view('dashboard.categories.index', [
             'categories' => Category::all()
         ]);
