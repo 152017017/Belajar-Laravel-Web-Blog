@@ -1,0 +1,6 @@
+web : JOSUASIRAITWEB
+pass : 3uxRPt73n2xP&TP2o!#L
+
+name : id19586605_db_blog
+use : id19586605_root
+pass : HuK*?N@%4(zginMf
