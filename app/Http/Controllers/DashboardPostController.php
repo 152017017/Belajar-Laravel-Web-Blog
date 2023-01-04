@@ -43,12 +43,12 @@ class DashboardPostController extends Controller
      */
     public function store(Request $request)
     {
-            $validatedData = $request->validate([
-            'title' => 'required|max:255',
+        $validatedData = $request->validate([
+            'title' => 'requiraed|max:255',
             'slug' => 'required|unique:posts',
             'category_id' => 'required',
             'body' => 'required',
-            'image' => 'image|file|max:1024'
+            'image' => 'image|file|mx:1024'
         ]);
 
         if($request->file('image')){
